@@ -1,0 +1,141 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local admin = Instance.new("TextButton")
+local label = Instance.new("TextLabel")
+local label2 = Instance.new("TextLabel")
+local character = Instance.new("TextButton")
+local syntax = Instance.new("TextButton")
+local convert = Instance.new("TextButton")
+local animations = Instance.new("TextButton")
+local head = Instance.new("TextButton")
+local body = Instance.new("TextButton")
+local sonic = Instance.new("TextButton")
+local netless = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(81, 0, 95)
+main.Position = UDim2.new(0.500109136, 0, 0.499165267, 0)
+main.Size = UDim2.new(0, 477, 0, 251)
+main.Active = true
+main.Draggable = true
+
+
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(171, 25, 184)
+label.BorderColor3 = Color3.fromRGB(159, 10, 179)
+label.Size = UDim2.new(0, 477, 0, 50)
+label.Font = Enum.Font.SciFi
+label.Text = "Purple Hub v0.1/Made by Purple Guy"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 14.000
+
+label2.Name = "label2"
+label2.Parent = main
+label2.BackgroundColor3 = Color3.fromRGB(171, 25, 184)
+label2.Position = UDim2.new(0.507337511, 0, 0.199203193, 0)
+label2.Size = UDim2.new(0, 14, 0, 201)
+label2.Font = Enum.Font.SourceSans
+label2.Text = ""
+label2.TextColor3 = Color3.fromRGB(0, 0, 0)
+label2.TextSize = 14.000
+
+character.Name = "character"
+character.Parent = main
+character.BackgroundColor3 = Color3.fromRGB(171, 25, 184)
+character.Position = UDim2.new(0.274633139, 0, 0.725099623, 0)
+character.Size = UDim2.new(0, 102, 0, 61)
+character.Font = Enum.Font.SourceSans
+character.Text = "Sonic (R6)"
+character.TextColor3 = Color3.fromRGB(0, 0, 0)
+character.TextSize = 14.000
+character.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
+end)
+
+syntax.Name = "syntax"
+syntax.Parent = main
+syntax.BackgroundColor3 = Color3.fromRGB(171, 25, 184)
+syntax.Position = UDim2.new(0.274633139, 0, 0.42231077, 0)
+syntax.Size = UDim2.new(0, 102, 0, 61)
+syntax.Font = Enum.Font.SourceSans
+syntax.Text = "Syntax Hub"
+syntax.TextColor3 = Color3.fromRGB(0, 0, 0)
+syntax.TextSize = 14.000
+syntax.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Memeboiyot/Syntaxv22/main/gui.md'),true))()
+end)
+
+convert.Name = "convert"
+convert.Parent = main
+convert.BackgroundColor3 = Color3.fromRGB(171, 25, 184)
+convert.Position = UDim2.new(0.559748411, 0, 0.42231077, 0)
+convert.Size = UDim2.new(0, 102, 0, 61)
+convert.Font = Enum.Font.SourceSans
+convert.Text = "Prison Life GUI"
+convert.TextColor3 = Color3.fromRGB(0, 0, 0)
+convert.TextSize = 14.000
+convert.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+end)
+
+animations.Name = "animations"
+animations.Parent = main
+animations.BackgroundColor3 = Color3.fromRGB(171, 25, 184)
+animations.Position = UDim2.new(0.559748411, 0, 0.725099623, 0)
+animations.Size = UDim2.new(0, 102, 0, 61)
+animations.Font = Enum.Font.SourceSans
+animations.Text = "MM2 GUI"
+animations.TextColor3 = Color3.fromRGB(0, 0, 0)
+animations.TextSize = 14.000
+animations.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
+end)
+
+head.Name = "head"
+head.Parent = main
+head.BackgroundColor3 = Color3.fromRGB(171, 25, 184)
+head.Position = UDim2.new(0.786163509, 0, 0.725099623, 0)
+head.Size = UDim2.new(0, 102, 0, 61)
+head.Font = Enum.Font.SourceSans
+head.Text = "Pet Simulator X Gui"
+head.TextColor3 = Color3.fromRGB(0, 0, 0)
+head.TextSize = 14.000
+head.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/EzPets.lua", true))()
+end)
+
+body.Name = "body"
+body.Parent = main
+body.BackgroundColor3 = Color3.fromRGB(171, 25, 184)
+body.Position = UDim2.new(0.786163509, 0, 0.42231077, 0)
+body.Size = UDim2.new(0, 102, 0, 61)
+body.Font = Enum.Font.SourceSans
+body.Text = "Adopt Me GUI"
+body.TextColor3 = Color3.fromRGB(0, 0, 0)
+body.TextSize = 14.000
+body.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Z3iAXASr", true))()
+end)
+
+
+
+netless.Name = "netless"
+netless.Parent = main
+netless.BackgroundColor3 = Color3.fromRGB(171, 25, 184)
+netless.Position = UDim2.new(0.0482180305, 0, 0.223107576, 0)
+netless.Size = UDim2.new(0, 200, 0, 44)
+netless.Font = Enum.Font.SourceSans
+netless.Text = "Netless (Use After Any Scripts)"
+netless.TextColor3 = Color3.fromRGB(0, 0, 0)
+netless.TextSize = 14.000
+netless.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
+end)
